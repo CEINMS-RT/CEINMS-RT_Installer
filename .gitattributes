@@ -1,0 +1,11 @@
+boost_1_75_0-msvc-14.2-64.exe filter=lfs diff=lfs merge=lfs -text
+cmake-3.23.0-rc1-windows-x86_64.msi filter=lfs diff=lfs merge=lfs -text
+Git-2.35.1.2-64-bit.exe filter=lfs diff=lfs merge=lfs -text
+glew-2.1.0-win32.zip filter=lfs diff=lfs merge=lfs -text
+msvcr120d.dll filter=lfs diff=lfs merge=lfs -text
+opensim-core-4.1.zip filter=lfs diff=lfs merge=lfs -text
+qt-opensource-windows-x86-5.12.11.exe filter=lfs diff=lfs merge=lfs -text
+vs_BuildTools.exe filter=lfs diff=lfs merge=lfs -text
+vs_community.exe filter=lfs diff=lfs merge=lfs -text
+xsd-4.0.msi filter=lfs diff=lfs merge=lfs -text
+qt-unified-windows-x64-4.4.1-online.exe filter=lfs diff=lfs merge=lfs -text

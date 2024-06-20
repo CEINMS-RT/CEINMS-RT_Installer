@@ -17,7 +17,7 @@ Before Starting, follow the steps:
 
 Press enter several times to accept the default options, or choose your preferred options based on [this](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement) page
 
-4 - Setup your ssh key on bitbucket.
+4 - Setup your ssh key on GitHub.
 
 You can find instruction in Step 3 of [this](https://support.atlassian.com/bitbucket-cloud/docs/set-up-an-ssh-key/) page. The resulting keys can be found in the ~/.ssh folder
 

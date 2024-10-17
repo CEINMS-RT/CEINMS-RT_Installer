@@ -258,7 +258,7 @@ exit
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User") 
 
 mkdir $repoFolder'\ceinms-rt'
-git clone git@bitbucket.org:ctw-bw/ceinms_rt.git $repoFolder'\ceinms-rt'
+git clone git@github.com:CEINMS-RT/ceinmsrt-core-cpp.git $repoFolder'\ceinms-rt'
 cd $repoFolder'\ceinms-rt'
 git switch Development
 New-Item -Force -Name "build" -ItemType "directory"

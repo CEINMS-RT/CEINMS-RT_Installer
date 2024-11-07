@@ -260,7 +260,6 @@ $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";"
 mkdir $repoFolder'\ceinms-rt'
 git clone git@github.com:CEINMS-RT/ceinmsrt-core-cpp.git $repoFolder'\ceinms-rt'
 cd $repoFolder'\ceinms-rt'
-git switch Development
 New-Item -Force -Name "build" -ItemType "directory"
 cd build 
 cmake .. -G "Visual Studio 16 2019" -A x64 -DCOMPILE_PLUGIN=OFF -DCMAKE_PREFIX_PATH="${env:SYSTEMDRIVE}\Qt\5.15.2\msvc2019_64;${env:ProgramFiles(x86)}\glew-2.1.0;${env:ProgramFiles(x86)}\CodeSynthesis XSD 4.0"

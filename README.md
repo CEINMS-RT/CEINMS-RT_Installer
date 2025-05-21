@@ -1,4 +1,4 @@
-This repository contains dependencies to allow for the execution of CEINMS-RT. It is recommended to download and extract this repository, as it will install all CEINMS-RT dependencies from scratch, including git.
+This repository contains dependencies to allow for the execution of CEINMS-RT. It is recommended to clone this repository, as it will install all CEINMS-RT dependencies from scratch, including git.
 A script installs all required software and finally compiles CEINMS, and it requires no input from the user other than the selection of the folder to install CEINMS-RT.
 
 Before Starting, follow the steps:

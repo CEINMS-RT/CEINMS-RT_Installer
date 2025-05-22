@@ -8,7 +8,8 @@ $scriptPath = split-path -parent $MyInvocation.MyCommand.Definition
 # Installs CMake
 #===============================================================
 
-Start-Process -Wait .\cmake-3.23.0-rc1-windows-x86_64.msi -ArgumentList "/passive"
+Invoke-WebRequest -Uri https://github.com/Kitware/CMake/releases/download/v4.0.2/cmake-4.0.2-windows-x86_64.msi -OutFile cmake.msi
+Start-Process -Wait .\cmake.msi -ArgumentList "/passive"
 # Current user path variables for CMake
 if ($env:PATH -notcontains "$env:PROGRAMFILES\CMake\bin") { 
     $UserPath  = [System.Environment]::GetEnvironmentVariable("Path","User")

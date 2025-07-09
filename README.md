@@ -34,7 +34,7 @@ You might have to still allow the script to run by answering R. You will be prom
 
 The script will install the following software:
 <ul>
-  <li>CMake 4.0.2</li>
+  <li>CMake 3.31.8</li>
   <li>git 2.35.1.2</li>
   <li>boost 1.75 for msvc-14.2 x64</li>
   <li>Visual studio 2019 community</li>
